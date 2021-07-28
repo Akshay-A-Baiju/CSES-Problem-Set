@@ -28,7 +28,7 @@ const int M = 1e9+7;
 
 void solve()
 {
-	//using variable sliding window + map of size 1
+    //using variable sliding window + map of size 1
     string s;
     cin>>s;
     ll i=0,j=0,ans=0;
