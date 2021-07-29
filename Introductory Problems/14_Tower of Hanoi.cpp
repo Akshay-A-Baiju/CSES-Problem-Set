@@ -1,5 +1,6 @@
 // Author : Akshay A Baiju
 // Problem link : https://cses.fi/problemset/task/2165
+// Problem tags : must know, recursion, observation
 
 #include<bits/stdc++.h>
 using namespace std;
