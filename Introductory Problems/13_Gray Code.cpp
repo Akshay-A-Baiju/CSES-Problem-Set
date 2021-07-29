@@ -1,5 +1,6 @@
 // Author : Akshay A Baiju
 // Problem link : https://cses.fi/problemset/task/2205
+// Problem tags : recursion, observation, logical
 
 #include<bits/stdc++.h>
 using namespace std;
