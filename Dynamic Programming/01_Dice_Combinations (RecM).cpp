@@ -18,21 +18,14 @@ vll dp(1e6+7,-1);
 
 ll ways(ll n)
 {
-	if (n==1)
+	if (n==0)
 		return 1;
 	if (dp[n]!=-1)
 		return dp[n];
-	ll res;
-	if (n<=6)
+	ll res=0;
+	for (ll i=1;i<=6;i++)
 	{
-		res=1;
-		for (ll i=1;i<=n-1;i++)
-			res=(res%M + ways(n-i)%M)%M;
-	}
-	else
-	{
-		res=0;
-		for (ll i=1;i<=6;i++)
+		if (n-i>=0)
 			res=(res%M + ways(n-i)%M)%M;
 	}
 	return dp[n]=res;
